@@ -1,0 +1,248 @@
+#customize-theme-controls .control-section-upsell .accordion-section-title {
+    background: #7952b3 !important;
+    border-color: #7952b3 !important;
+    color: #fff !important;
+    line-height: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#customize-theme-controls .control-section-upsell .accordion-section-title .button-secondary {
+    background: #00bcd4;
+    border-color: #00bcd4;
+    color: #fff;
+}
+
+#customize-theme-controls .control-section-upsell .accordion-section-title .button-secondary:hover,
+#customize-theme-controls .control-section-upsell .accordion-section-title .button-secondary:focus {
+    background: #03a9f4;
+    border-color: #03a9f4;
+}
+
+.customize-control-checkbox input[type=checkbox] {
+    border: 2px solid #444;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    border-radius: 12px;
+    background: #f0f0f1;
+    vertical-align: middle;
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+    transition: background 350ms ease;
+}
+
+.customize-control-checkbox input[type=checkbox]:before,
+.customize-control-checkbox input[type=checkbox]:after {
+    content: "";
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 6px;
+    margin: 0 auto;
+    transition: all 350ms cubic-bezier(0, 0.95, 0.38, 0.98), background 150ms ease;
+}
+
+.customize-control-checkbox input[type=checkbox]:before {
+    background: rgba(0, 0, 0, 0.2);
+    transform: translate3d(0, -50%, 0) scale(0);
+}
+
+.customize-control-checkbox input[type=checkbox]:after {
+    background: #999;
+    transform: translate3d(0, -50%, 0);
+}
+
+
+.customize-control-checkbox input[type=checkbox]:checked:after {
+    background: #4caf50;
+    transform: translate3d(100%, -50%, 0);
+}
+
+.wedevs-range-slider-wrap input[type=range] {
+    -webkit-appearance: none;
+    -webkit-transition: background .3s;
+    -moz-transition: background .3s;
+    transition: background .3s;
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 5px;
+    width: calc(100% - 70px);
+    padding: 0;
+}
+
+.wedevs-range-slider-wrap input[type=range]:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.wedevs-range-slider-wrap input[type=range]:hover {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.wedevs-range-slider-wrap input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    background-color: #3498D9;
+}
+
+.wedevs-range-slider-wrap input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    border: none;
+    border-radius: 50%;
+    background-color: #3498D9;
+}
+
+.wedevs-range-slider-wrap input[type=range]::-moz-range-thumb {
+    width: 15px;
+    height: 15px;
+    border: none;
+    border-radius: 50%;
+    background-color: #3498D9;
+}
+
+.wedevs-range-slider-wrap input[type=range]::-ms-thumb {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 0;
+    background-color: #3498D9;
+}
+
+.wedevs-range-slider-wrap input[type=range]::-moz-range-track {
+    border: inherit;
+    background: transparent;
+}
+
+.wedevs-range-slider-wrap input[type=range]::-ms-track {
+    border: inherit;
+    color: transparent;
+    background: transparent;
+}
+
+.wedevs-range-slider-wrap input[type=range]::-ms-fill-lower,
+.wedevs-range-slider-wrap input[type=range]::-ms-fill-upper {
+    background: transparent;
+}
+
+.wedevs-range-slider-wrap input[type=range]::-ms-tooltip {
+    display: none;
+}
+
+.wedevs-range-slider-wrap .current-value-indicator {
+    display: inline-block;
+    font-size: 14px;
+    padding: 0 5px;
+    font-weight: 400;
+    position: relative;
+    top: 2px;
+}
+
+.wedevs-range-slider-wrap .current-value-indicator {
+    display: inline-block;
+    font-size: 14px;
+    padding: 0 5px;
+    font-weight: 400;
+    position: relative;
+    top: 2px;
+}
+
+.wedevs-range-slider-wrap .range-set-default {
+    color: rgba(0, 0, 0, 0.2);
+    float: right;
+    -webkit-transition: color .5s ease-in;
+    -moz-transition: color .5s ease-in;
+    -ms-transition: color .5s ease-in;
+    -o-transition: color .5s ease-in;
+    transition: color .5s ease-in;
+}
+
+.wedevs-range-slider-wrap .range-set-default span {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.wedevs-range-slider-wrap .range-set-default:hover {
+    color: #f44336;
+}
+
+.customize-control-social-icon .title-rep-wrap {
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    align-items: center;
+    padding: 15px 10px;
+}
+
+.customize-control-social-icon .title-rep-wrap .wedevs-header-title {
+    margin: 0;
+}
+
+.customize-control-social-icon .wedevs-repeater-wrap * {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -mozbox-sizing: border-box;
+}
+
+.customize-control-social-icon .wedevs-repeater-wrap:before,
+.customize-control-social-icon .wedevs-repeater-wrap:before {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.customize-control-social-icon .narrative-lite-type-icons .customize-control-title{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.customize-control-social-icon .narrative-lite-type-icons .icon-main-wrap .icons-lists {
+    display: grid;
+    grid-row-gap: 5px;
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+    width: 100%;
+    text-align: center;
+    background: #fff;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.customize-control-social-icon .narrative-lite-type-icons .icon-main-wrap .icons-lists li {
+    cursor: pointer;
+}
+
+.customize-control-social-icon .narrative-lite-type-icons .icon-main-wrap .icons-lists li:hover,
+.customize-control-social-icon .narrative-lite-type-icons .icon-main-wrap .icons-lists li:focus {
+    color: #4caf50;
+}
+
+.narrative-lite-repeater-footer {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding-bottom: 15px;
+}
+
+.wedevs-sortable {
+    background: #fff;
+    margin-top: 15px;
+    padding: 15px;
+}
+
+.wedevs-sortable .wedevs-sortable-item {
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border: 1px solid #dcdcde;
+}
+
+.wedevs-sortable .wedevs-sortable-item:last-child {
+    margin-bottom: 0;
+}

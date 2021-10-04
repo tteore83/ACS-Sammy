@@ -1,0 +1,59 @@
+/*
+Theme Name: Narrative Lite
+
+Adding support for languages written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+https://codex.wordpress.org/Right-to-Left_Language_Support
+
+*/
+
+.site-header-top .header-components-right .header-component-item {
+    margin-left: 0;
+    margin-right: 1.5rem;
+}
+
+.wedevs-banner-block .wedevs-swiper-container .button-prev,
+.wedevs-banner-block .wedevs-swiper-container .button-next,
+.wedevs-banner-block .wedevs-swiper-container .pagination {
+    left: 15px;
+    right: auto;
+}
+
+
+.entry-meta .tags-links span {
+    margin-left: 5px;
+    margin-right: 0;
+}
+
+.widget_nav_menu ul li,
+.widget_categories ul li,
+.widget_recent_entries ul li,
+.widget_recent_comments ul li,
+.widget_archive ul li,
+.widget_meta ul li,
+.widget_pages ul li,
+.widget_rss ul li {
+    padding-left: 0;
+    padding-right: 1.5em;
+}
+
+.widget_nav_menu ul li:before,
+.widget_categories ul li:before,
+.widget_recent_entries ul li:before,
+.widget_recent_comments ul li:before,
+.widget_archive ul li:before,
+.widget_meta ul li:before,
+.widget_pages ul li:before,
+.widget_rss ul li:before {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    left: auto;
+    right: 0;
+}
+
+.wedevs-social-share-inner{
+    margin-left: auto;
+    margin-right: -80px;
+}

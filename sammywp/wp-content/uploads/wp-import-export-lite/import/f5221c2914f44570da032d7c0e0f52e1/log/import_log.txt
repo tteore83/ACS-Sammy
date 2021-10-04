@@ -1,0 +1,8 @@
+[02:54:57] <strong>Record</strong> #1
+[02:54:57] <strong>ERROR</strong> : Le contenu, le titre et l’extrait sont vides.
+[02:54:57] <strong>Record</strong> #2
+[02:54:57] <strong>ERROR</strong> : Le contenu, le titre et l’extrait sont vides.
+[02:54:57] <strong>Record</strong> #3
+[02:54:57] <strong>ERROR</strong> : Le contenu, le titre et l’extrait sont vides.
+[02:54:57] <strong>Record</strong> #4
+[02:54:57] <strong>ERROR</strong> : Le contenu, le titre et l’extrait sont vides.
